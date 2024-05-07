@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25abc8139adbfb84387560d1c401077d, type: 3}
+  m_Name: WeaponSO
+  m_EditorClassIdentifier: 
+  listWeaponItemData:
+  - type: 0
+    name: Candy
+    weaponPrefabScript: {fileID: 4135869391922365925, guid: faaf1591891a8d74fa684d21bfe6c696, type: 3}
+    price: 0
+    speed: 1
+    damage: 1
+  - type: 1
+    name: Sword
+    weaponPrefabScript: {fileID: 5210584141252215692, guid: 06e8382083d01bc4faa491bf7862196d, type: 3}
+    price: 100
+    speed: 2
+    damage: 1
+  - type: 2
+    name: Uzi
+    weaponPrefabScript: {fileID: 5207203881301535872, guid: 75e60535045c8b24e9b42360f0c4f226, type: 3}
+    price: 200
+    speed: 3
+    damage: 1
